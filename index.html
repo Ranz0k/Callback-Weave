@@ -24,10 +24,12 @@
       padding: 2rem;
     }
 
-    .check {
-      width: 52px;
-      height: 52px;
+    .logo {
+      width: 64px;
+      height: 64px;
+      object-fit: contain;
       margin: 0 auto 2rem;
+      display: block;
       opacity: 0;
       animation: fadeUp 0.5s ease forwards;
     }
@@ -86,10 +88,7 @@
 </head>
 <body>
   <div class="container">
-    <svg class="check" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="26" cy="26" r="25" stroke="#1a1a1a" stroke-width="1.5"/>
-      <path d="M15 26.5L22.5 34L37 19" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
+    <img class="logo" src="https://raw.githubusercontent.com/Ranz0k/Callback-Weave/main/weave.png" alt="Weave">
 
     <h1>Your verification went through successfully</h1>
     <p>The verifications passed without any problem.<br>You can now return to the verification channel.</p>
